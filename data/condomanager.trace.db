@@ -1,0 +1,3 @@
+2026-09-18 12:40:52.404523-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]TABLE ENTITIES"; expected "identifier"; SQL statement:
+DELETE TABLE ENTITIES [42001-240]
