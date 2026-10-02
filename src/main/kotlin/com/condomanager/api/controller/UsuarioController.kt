@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @CrossOrigin(
     origins = [
-        "https://seu-site.vercel.app"
+        "https://condoportariaservidor.onrender.com/"
     ]
 )
 
