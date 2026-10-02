@@ -42,8 +42,7 @@ class UsuarioController (val service: UsuarioService) {
 
     @DeleteMapping("/{id}")
     fun excluir(@PathVariable id : Long) : ResponseEntity<Void> {
-        val excluido = service.excluir(id)
-        if (!excluido) {
+        if (!service.excluir(id)) {
             return ResponseEntity.notFound().build()
         } else {
             return ResponseEntity.ok().build()
